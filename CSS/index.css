@@ -70,11 +70,12 @@ button {
     border: none;
     border-radius: 10px;
     width: 100%;
+    max-width: 400px;
     height: auto;
   }
   .form-header {
     border-bottom: 1px solid #e0e0e0;
-    padding-top: 5px;
+    padding-top: 10px;
   }
 
   .form-container div {
