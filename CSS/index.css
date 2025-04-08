@@ -66,28 +66,32 @@ button {
 
 @media screen and (min-width: 100px) and (max-width: 650px) {
   .form {
-    margin: 50px auto 50px auto;
+    margin: 50px auto;
     border: none;
     border-radius: 10px;
     width: 100%;
     max-width: 400px;
     height: auto;
   }
+
   .form-header {
     border-bottom: 1px solid #e0e0e0;
     padding-top: 10px;
   }
 
-  .form-container div {
-    margin-top: 18px;
-  }
-  input {
-    width: 100%;
-  }
   .form-container {
     margin-bottom: 10px;
     padding: 10px 20px;
   }
+
+  .form-container div {
+    margin-top: 18px;
+  }
+
+  input {
+    width: 100%;
+  }
+
   label {
     font-size: 17px;
     font-weight: 550;
